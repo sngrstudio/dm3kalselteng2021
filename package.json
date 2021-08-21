@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
-    "clean": "npx del-cli dist src/components/styles"
+    "clean": "npx del-cli dist src/components/styles",
+    "prestart": "yarn clean"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
