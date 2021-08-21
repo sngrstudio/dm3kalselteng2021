@@ -4,4 +4,13 @@ $system_font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubu
 
 body {
     font-family: $system_font;
+    min-height: 100vh;
+}
+
+.layout_section {
+    max-width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
