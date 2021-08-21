@@ -1,0 +1,24 @@
+{
+  "name": "dm3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "clean": "npx del-cli dist src/components/styles"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "autoprefixer": "^10.3.1",
+    "del-cli": "^4.0.1",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^5.0.0",
+    "normalize.css": "^8.0.1",
+    "postcss": "^8.3.6",
+    "postcss-import-url": "^7.0.0",
+    "readable-stream": "^3.6.0",
+    "sass": "^1.38.0"
+  }
+}
