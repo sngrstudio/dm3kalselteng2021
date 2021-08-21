@@ -1,0 +1,10 @@
+[build]
+    command = "yarn build"
+    publish = "dist"
+    
+[dev]
+    command = "yarn start"
+    autoLaunch = false
+
+[context.production.environment]
+    ELEVENTY_ENV = "production"
