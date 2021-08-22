@@ -24,6 +24,7 @@ Dauroh Marhalah 3 (DM3) merupakan dauroh yang berfungsi sebagai pintu masuk sese
 | 22 November - 28 November 2021 | Pelaksanaan DM3          |
 
 # Sosialisasi
+Tahap Sosialisasi adalah proses 
 
 # Pendaftaran
 
@@ -46,8 +47,9 @@ Sebelum melakukan pendaftaran, mohon menyiapkan berkas-berkas berikut ini:
 2. Surat Keterangan Telah Tersertifikasi AB2 dari Bidang Pembinaan Kader KAMMI Wilayah.
 3. Surat Keterangan Telah Terbina dari Murabbi.
 4. Surat Pernyataan, yang menyatakan bersedia untuk menjadi KAMMI Daerah, KAMMI Wilayah, dan pimpinan/pengurus PP KAMMI.
-5. Surat Keterangan Aktif, yang menyatakan bahwa calon peserta aktif dalam kegiatan KAMMI (sebagai pengurus/LSO/Badan Khusus) atau aktif diberdayakan dalam lembaga eksternal (surat mencantumkan nama lembaga terkait).
-6. Surat rekomendasi tokoh, dengan pilihan sebagaimana berikut:
+5. Sertifikat DPMK, atau Surat Keterangan Pemandu oleh Komander/BPK Daerah/Wilayah jika tidak ada.
+6. Surat Keterangan Aktif, yang menyatakan bahwa calon peserta aktif dalam kegiatan KAMMI (sebagai pengurus/LSO/Badan Khusus) atau aktif diberdayakan dalam lembaga eksternal (surat mencantumkan nama lembaga terkait).
+7. Surat rekomendasi tokoh, dengan pilihan sebagaimana berikut:
    * Akademisi (dengan jabatan terendah sebagai Kepala Program Studi/sederajat),
    * Birokrat (dengan jabatan terendah sebagai Kepala Dinas/Badan di tingkat Provinsi),
    * Politisi (dengan jabatan terendah sebagai Ketua Partai di tingkat Kabupaten/Kota, atau pejabat publik di tingkat Kabupaten/Kota (Bupati/Walikota), atau anggota DPRD Provinsi),
@@ -65,24 +67,50 @@ Kemudian melakukan pendaftaran dengan cara:
 # Seleksi
 
 ## Tahap Pertama
+Seleksi tahap pertama adalah seleksi **bedah buku**.
+
+### Mekanisme Bedah Buku
+1. Calon Peserta membuat resume dari buku yang akan dibedah.
+2. Calon Peserta membedah buku tersebut di hadapan kader KAMMI, baik secara daring maupun luring.
+3. Bedah Buku dilakukan di hadapan Tim Seleksi Daerah/Wilayah yang bertugas sebagai panelis.
+4. Calon Peserta membedah salah satu dari buku dibawah ini:
+   * Manhaj Ishlah *(Abdurrahman Al-Mursy Ramadhan)*
+   * Fiqh Tamkin *(Prof. Dr. Ali Muhammad Ash-Shalabi)*
+   * Siyasah Syar'iyyah *(Ibnu Taimiyyah)*
+   * Pilar-Pilar Kebangkitan Umat *(Abdul Hamid Al-Ghazali)*
+   * Fiqh Negara *(Dr. Yusuf Qardhawy)*
+   * Negara, Pasar dan Rakyat *(Fahri Hamzah)*
+
+### Catatan untuk Tim Seleksi
+TODO
 
 ## Tahap Kedua
+Seleksi tahap kedua adalah seleksi **karya tulis dan wawancara.**
 
-## Wawancara
+### Mekanisme Seleksi Karya Tulis
+Calon peserta membuat karya tulis, dengan tema besar: **"Bersama KAMMI Membangun Negeri Dari Pelosok"**
+
+Karya tulis ditulis dengan subtema berdasarkan bidang keilmuan/keahlian peserta (tidak harus sama dengan jurusan), beberapa pilihan subtema di antaranya:
+* Ekonomi
+* Pendidikan
+* Keagamaan
+* Sosial Masyarakat
+* Adat & Kebudayaan
+* Pertanian, Peternakan & Perikanan
+* Lingkungan Hidup
+* Teknologi Tepat Guna
+* dan lain sebagainya (boleh mengambil bidang selain di atas)
 
 ## Pengumuman Calon Peserta
-
 1. Pengumuman Calon Peserta DM3 KAMMI Kalsel-Kalteng 2021. akan dilaksanakan pada tanggal 12 November 2021.
 2. Calon peserta yang telah menyelesaikan semua tahap pendaftaran dan seleksi, segera ditetapkan sebagai peserta DM3 KAMMI Kalsel-Kalteng 2021.
 
 # Pelaksanaan DM3
-
 1. DM3 KAMMI Kalsel-Kalteng akan dilaksanakan pada tanggal 22 November - 28 November 2021.
 2. Peserta yang telah ditetapkan wajib mengikuti seluruh rangkaian kegiatan dan mematuhi hak dan kewajiban sebagai peserta.
 3. Peserta yang telah ditetapkan diharapkan untuk tidak mengundurkan diri dari peserta DM3 KAMMI Kalsel-Kalteng 2021, tanpa halangan dan maksud yang *syar'i*.
 
 ## Pendaftaran Ulang
-
 
 
 ## Ketentuan Selama Pelaksanaan
