@@ -16,6 +16,7 @@
     "gulp": "^4.0.2",
     "gulp-postcss": "^9.0.0",
     "gulp-sass": "^5.0.0",
+    "html-minifier": "^4.0.0",
     "normalize.css": "^8.0.1",
     "postcss": "^8.3.6",
     "postcss-import-url": "^7.0.0",

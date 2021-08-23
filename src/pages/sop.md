@@ -24,7 +24,7 @@ Dauroh Marhalah 3 (DM3) merupakan dauroh yang berfungsi sebagai pintu masuk sese
 | 22 November - 28 November 2021 | Pelaksanaan DM3          |
 
 # Sosialisasi
-Tahap Sosialisasi adalah proses 
+Tahap Sosialisasi dilakukan opeh Panitia Pelaksana DM3 Kalsel-Kalteng melalui jalur media dan komunikasi PW KAMMI Kalteng, PD, dan kader-kader di bawahnya. Sosialisasi juga dilakukan melalui jejaring antar kepengurusan PW dan PD se-Indonesia.
 
 # Pendaftaran
 
@@ -81,8 +81,18 @@ Seleksi tahap pertama adalah seleksi **bedah buku**.
    * Fiqh Negara *(Dr. Yusuf Qardhawy)*
    * Negara, Pasar dan Rakyat *(Fahri Hamzah)*
 
-### Catatan untuk Tim Seleksi
-TODO
+<details>
+
+   <summary>
+      <b>Catatan untuk Tim Seleksi</b>
+   </summary>
+
+   1. Tim Seleksi berjumlah minimal dua orang dan merupakan kader AB3 yang ditunjuk oleh BPK/Ketua Umum PW asal daerah peserta;
+   2. Tim Seleksi bertindak sebagai panelis pada bedah buku calon peserta;
+   3. Tim Seleksi melakukan penilaian pada blangko yang tersedia ([unduh](#)) dan mengisikan penilaian dan mengunggah blangko pada halaman [ini](#);
+   4. Tim Seleksi senantiasa berkoordinasi dengan Perangkat Pelaksana DM3 Kalsel-Kalteng baik dalam proses penilaian maupun hal-hal lain terkait proses seleksi peserta DM3 Kalsel-Kalteng 2021.
+
+</details>
 
 ## Tahap Kedua
 Seleksi tahap kedua adalah seleksi **karya tulis dan wawancara.**
@@ -90,16 +100,37 @@ Seleksi tahap kedua adalah seleksi **karya tulis dan wawancara.**
 ### Mekanisme Seleksi Karya Tulis
 Calon peserta membuat karya tulis, dengan tema besar: **"Bersama KAMMI Membangun Negeri Dari Pelosok"**
 
-Karya tulis ditulis dengan subtema berdasarkan bidang keilmuan/keahlian peserta (tidak harus sama dengan jurusan), beberapa pilihan subtema di antaranya:
-* Ekonomi
-* Pendidikan
-* Keagamaan
-* Sosial Masyarakat
-* Adat & Kebudayaan
-* Pertanian, Peternakan & Perikanan
-* Lingkungan Hidup
-* Teknologi Tepat Guna
-* dan lain sebagainya (boleh mengambil bidang selain di atas)
+Calon peserta akan mengambil satu permasalahan di daerah, dengan perspektif pengabdian di daerah, dengan kacamata bidang keahlian/keilmuan yang saat ini sedang digeluti (tidak harus sama dengan jurusan yang sedang/telah diambil). Kemudian peserta merumuskan apa yang akan dilakukan untuk berkontribusi menyelesaikan permasalahan tersebut, dengan perspektif peserta sebagai kader KAMMI, mahasiswa/sarjana, dan profesional mewakili bidang yang digeluti. 
+
+Diutamakan permasalahan untuk daerah rural/pedesaan, namun boleh mengambil daerah perkotaan jika calon peserta merasa lebih familiar dengan permasalahan yang akan dirumuskan.
+
+Esai ditulis sebagaimana berikut:
+
+1. Karya tulis ditulis dengan subtema berdasarkan bidang keilmuan/keahlian calon peserta (tidak harus sama dengan jurusan kuliah), beberapa pilihan subtema di antaranya:
+   * Ekonomi
+   * Pendidikan
+   * Keagamaan
+   * Sosial Masyarakat
+   * Adat & Kebudayaan
+   * Pertanian, Peternakan & Perikanan
+   * Lingkungan Hidup
+   * Teknologi Tepat Guna
+   * dan lain sebagainya (boleh mengambil bidang lain selain di atas)
+2. Ketentuan penulisan karya tulis:
+   * Ukuran kertas A4
+   * Menggunakan font Times New Roman, ukuran 12
+   * Jarak antar baris 1,5 *lines*
+   * Minimal 3 halaman, boleh lebih banyak
+   * Kaidah penulisan kutipan dengan menggunakan *style* APA.
+   * Mengikuti kaidah penulisan karya tulis ilmiah yang berlaku.
+   * Mencantumkan setidaknya tiga referensi buku, dan boleh dilengkapi dengan referensi lainnya (online/jurnal/berita/dll).
+3. Outline dari karya tulis:
+   * Latar Belakang
+   * Analisis situasi dan kondisi daerah tujuan
+   * Rumusan Masalah dan Evaluasi Kritis
+   * Rumusan Solusi
+   * Implementasi Langkah per Langkah Solusi
+   * Kesimpulan dan Penutup
 
 ## Pengumuman Calon Peserta
 1. Pengumuman Calon Peserta DM3 KAMMI Kalsel-Kalteng 2021. akan dilaksanakan pada tanggal 12 November 2021.
@@ -111,13 +142,46 @@ Karya tulis ditulis dengan subtema berdasarkan bidang keilmuan/keahlian peserta 
 3. Peserta yang telah ditetapkan diharapkan untuk tidak mengundurkan diri dari peserta DM3 KAMMI Kalsel-Kalteng 2021, tanpa halangan dan maksud yang *syar'i*.
 
 ## Pendaftaran Ulang
-
+Calon Peserta yang telah ditetapkan sebagai peserta diwajibkan untuk melakukan pendaftaran ulang di lokasi dengan menyerahkan berkas-berkas hardcopy sebagaimana berikut:
+1. Hardcopy dari berkas yang telah diunggah (sebagaimana telah tercantum di Tata Cara Pendaftaran);
+2. Esai dan resume buku (lihat kembali tahap seleksi 1 dan 2);
+3. Membayar iuran pendaftaran sebesar Rp400.000,-;
+   * Pembayaran dapat dilakukan lebih awal dengan cara mentransfer melalui rekening XXXX (Bank XXXX) a.n XXXX. Dimohon untuk melakukan konfirmasi kepada PJ Kepesertaan setelah melakukan transfer, dan melampirkan bukti transfer ketika pendaftaran ulang di meja registrasi.
 
 ## Ketentuan Selama Pelaksanaan
 
 ### Perlengkapan yang wajib dibawa
+1. Hardcopy dari berkas dokumen yang telah diunggah (sebagaimana telah tercantum di Tata Cara Pendaftaran);
+2. Bukti transfer pendaftaran ulang, jika membayar melalui transfer, atau uang pas jika membayar di tempat;
+2. Resume dan essay (tahap seleksi 1 dan 2);
+3. Membawa laptop/notebook;
+4. Membawa pakaian dengan ketentuan sebagaimana berikut:
+   * Kemeja formal;
+   * Celana/rok berwarna gelap dan tidak berbahan jins;
+   * Sepatu pantofel dan kaos kaki;
+   * Wajib membawa batik minimal satu potong;
+   * Kaos, training dan sepatu olahraga;
+   * untuk akhwat, kerudung tidak boleh berbahan kaos selama acara resmi.
+5. Membawa buku wajib (ketentuan di bawah), buku tulis dan alat tulis.
 
 ### Buku yang wajib dibawa
+Peserta wajib membawa minimal lima dari daftar buku-buku di bawah ini:
+   * Manhaj Ishlah *(Abdurrahman Al-Mursy Ramadhan)*
+   * Fiqh Tamkin *(Prof. Dr. Ali Muhammad Ash-Shalabi)*
+   * Siyasah Syar'iyyah *(Ibnu Taimiyyah)*
+   * Pilar-Pilar Kebangkitan Umat *(Abdul Hamid Al-Ghazali)*
+   * Fiqh Negara *(Dr. Yusuf Qardhawy)*
+   * Al-Ahkam As-Sulthoniyah *(Imam Al-Mawardi)*
+   * Negara dan Cita-Cita Politik *(Abu Ridho)*
+   * Meretas Jalan Kebangkitan Islam *(Abdul Hamid Al-Ghazali)*
+   * Imagined Communities, Third Way *(Anthony Giddens)*
+   * Rekayasa Masa Depan Menuju Kemenangan Dakwah Islam *(Cahyadi Takariawan)*
+   * Agama dan Negara Perspektif Islam *(M. Natsir)*
+   * Kalimantan Membangun: Adat & Kebudayaan *(Tjilik Riwut)*
+   * Kronik Kalimantan *(Tjilik Riwut, Nila Riwut)*
+   * Maneser Panatau Tatu Hiang *(Tjilik Riwut)*
+   * Buku-buku lain yang relevan.
+
 
 ## Pengunduran Diri dari Peserta
 
@@ -130,3 +194,4 @@ Jika peserta yang telah ditetapkan terpaksa harus mengundurkan diri dari kepeser
 5. Mengirimkan surat pengunduran diri beserta bukti pembayaran denda kepada Master of Training DM3 KAMMI Kalsel-Kalteng 2021, Akh. R. Ilham Sastra (WA. [0853-4967-2828](https://wa.me/6285349672828))
 
 # Lain-lain
+Hal-hal lain terkait proses seleksi DM3 Kalsel-Kalteng ini dapat dikomunikasikan lebih lanjut kepada Perangkat DM3 Kalsel-Kalteng 2021.
