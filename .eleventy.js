@@ -7,7 +7,7 @@ module.exports = function(eleventyConfig) {
         execSync('npx gulp styles', {stdio: 'inherit'})
     })
     eleventyConfig.addTransform('minify', function(content, outputPath) {
-        if (outputPath.endsWith('.html')) {
+        if (outputPath.endsWith('.html') && (process.env.ELEVENTY_ENV === 'production')) {
             let result = minifier.minify(content, {
                 useShortDoctype: true,
                 removeComments: true,

@@ -1,0 +1,10 @@
+<header class="site_header">
+    <h1>dm3</h1>
+    <nav class="site_menu">
+        <ul>
+            {% for item in site.menu %}
+            <li class="{%- if forloop.last -%}{{ 'last' }}{%- endif -%}"><a href="{{ item.url }}">{{ item.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>

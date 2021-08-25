@@ -1,0 +1,15 @@
+$bg_color: #ffffff;
+$txt_color: #000000;
+
+@mixin default_color_scheme {
+    @include bg_white;
+    @include txt_black;
+}
+
+@mixin bg_white {
+    background-color: $bg_color;
+}
+
+@mixin txt_black {
+    color: $txt_color;
+}
