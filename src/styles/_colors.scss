@@ -1,5 +1,6 @@
 $bg_color: #ffffff;
 $txt_color: #000000;
+$muted: #383838;
 
 @mixin default_color_scheme {
     @include bg_white;
@@ -12,4 +13,8 @@ $txt_color: #000000;
 
 @mixin txt_black {
     color: $txt_color;
+}
+
+@mixin muted {
+    color: $muted;
 }
