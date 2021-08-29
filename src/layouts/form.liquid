@@ -24,15 +24,19 @@ layout: page
     <label class="form_input">
         <span>{{ item.name }}</span>
         {% if item.type == "select" %}
-        <select name="{{ item.name }}" id="{{ item.name | downcase | replace: ' ', '_' }}">
+        <select name="{{ item.name }}" id="{{ item.name | downcase | replace: ' ', '_' }}" {% if item.required %}{{ 'required' }}{% endif %}>
             {% for option in item.options %}
             <option value="{{ option }}">{{ option }}</option>
             {% endfor %}
         </select>
         {% elsif item.type == "textarea" %}
-        <textarea name="{{ item.name }}" id="{{ item.name | downcase | replace: ' ', '_' }}"  rows="5" placeholder="{{ item.name }}"></textarea>
+        <textarea name="{{ item.name }}" id="{{ item.name | downcase | replace: ' ', '_' }}"  rows="5" placeholder="{{ item.name }}" {% if item.required %}{{ 'required' }}{% endif %}>
+            {%- if item.content -%}
+            {{ item.content }}
+            {%- endif -%}
+        </textarea>
         {% else %}
-        <input type="{{ item.type }}" name="{{ item.name }}" id="{{ item.name | downcase | replace: ' ', '_' }}" placeholder="{{ item.name }}">
+        <input type="{%- if item.type -%}{{ item.type }}{%- else -%}{{ 'text' }}{%- endif -%}" name="{{ item.name }}" id="{{ item.name | downcase | replace: ' ', '_' }}" placeholder="{{ item.name }}" {% if item.required %}{{ 'required' }}{% endif %}>
         {% endif %}
     </label>
     {% endif %}

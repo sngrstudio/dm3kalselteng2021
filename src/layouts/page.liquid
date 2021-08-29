@@ -2,12 +2,19 @@
 layout: main
 ---
 <section class="layout_section">
-    <article>
-        <header>
-            <h1 class="page_title">{{ title }}</h1>
-        </header>
-        <main>
-            {{ content }}
-        </main>
-    </article>
+{% if alerts %}
+{% for alert in alerts %}
+<aside>
+    <blockquote>{{ alert.body }}</blockquote>
+</aside>
+{% endfor %}
+{% endif %}
+<article>
+    <header>
+        <h1 class="page_title">{{ title }}</h1>
+    </header>
+    <main>
+        {{ content }}
+    </main>
+</article>
 </section>

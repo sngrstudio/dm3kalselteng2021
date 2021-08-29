@@ -15,6 +15,14 @@ $muted: #383838;
     color: $txt_color;
 }
 
-@mixin muted {
+@mixin txt_muted {
     color: $muted;
+}
+
+@mixin border_muted {
+    border-color: $muted;
+}
+
+@mixin bg_muted {
+    background-color: $muted;
 }

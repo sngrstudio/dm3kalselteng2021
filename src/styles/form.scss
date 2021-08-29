@@ -1,3 +1,4 @@
+@use './colors';
 @use './page.scss';
 
 .form {
@@ -39,6 +40,10 @@ textarea {
     padding: .75rem;
     font-size: 1rem;
     line-height: 1.5rem;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    @include colors.border_muted;
+    @include colors.bg_white;
 }
 
 fieldset {
