@@ -1,0 +1,44 @@
+---
+layout: page
+---
+{% if form %}
+<section class="form">
+<form action="">
+    {% for set in form %}
+    <fieldset>
+    <legend>{{ set.set }}</legend>
+    {% for item in set.items %}
+    {% if item.type == "radio" or item.type == "checkbox" %}
+    <div class="form_checkbox">
+        <span>{{ item.name }}</span>
+        {% for option in item.options %}
+        <div class="form_checkbox_item">
+            <label>
+                <input type="{{ item.type }}">
+                <span>{{ option }}</span>
+            </label>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <label class="form_input">
+        <span>{{ item.name }}</span>
+        {% if item.type == "select" %}
+        <select name="{{ item.name }}" id="{{ item.name | downcase | replace: ' ', '_' }}">
+            {% for option in item.options %}
+            <option value="{{ option }}">{{ option }}</option>
+            {% endfor %}
+        </select>
+        {% elsif item.type == "textarea" %}
+        <textarea name="{{ item.name }}" id="{{ item.name | downcase | replace: ' ', '_' }}"  rows="5" placeholder="{{ item.name }}"></textarea>
+        {% else %}
+        <input type="{{ item.type }}" name="{{ item.name }}" id="{{ item.name | downcase | replace: ' ', '_' }}" placeholder="{{ item.name }}">
+        {% endif %}
+    </label>
+    {% endif %}
+    {% endfor %}
+    </fieldset>
+    {% endfor %}
+</form>
+</section>
+{% endif %}

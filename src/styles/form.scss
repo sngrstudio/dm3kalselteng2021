@@ -1,0 +1,52 @@
+@use './page.scss';
+
+.form {
+    form, fieldset {
+        display: grid;
+        gap: 1rem;
+    }
+}
+
+.form_input {
+    display: block;
+    input, textarea, select {
+        width: 100%;
+        display: block;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.form_checkbox {
+    display: block;
+    .form_checkbox_item {
+        margin-top: .5rem;
+    }
+}
+
+[type=text],
+[type=email],
+[type=password],
+[type=date],
+[type=datetime-local],
+[type=month],
+[type=time],
+[type=tel],
+select,
+select[multiple],
+textarea {
+    appearance: none;
+    padding: .75rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+fieldset {
+    border-width: 0;
+    padding: 0;
+    legend {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+}
