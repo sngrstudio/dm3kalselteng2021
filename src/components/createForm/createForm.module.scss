@@ -1,0 +1,11 @@
+.form {
+    @apply grid grid-cols-1 gap-6;
+}
+
+.label {
+    @apply block;
+}
+
+.input {
+    @apply block w-full rounded-md shadow-sm;
+}

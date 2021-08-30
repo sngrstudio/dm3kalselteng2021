@@ -1,0 +1,25 @@
+---
+import { site } from '../../config.ts'
+
+export interface Props {
+    title: string
+}
+
+const { title } = Astro.props
+---
+<header>
+    <h1 class="title">{ title }</h1>
+    <p class="subtitle">{ site.name }</p>
+</header>
+
+<style lang="scss">
+    header {
+        @apply py-24;
+        .title {
+            @apply text-4xl font-extrabold mb-2;
+        }
+        .subtitle {
+            @apply text-2xl;
+        }
+    }
+</style>

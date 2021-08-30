@@ -1,11 +1,18 @@
 ---
-import BaseLayout from './base.astro';
-const { content } = Astro.props;
+import { site } from '../config.ts' 
+import BaseLayout from './base.astro'
+const { title } = Astro.props || ''
 ---
-<BaseLayout>
+<BaseLayout title={ title ? `${title} | ${site.name}` : site.name }>
     <header></header>
     <main>
         <slot/>
     </main>
     <footer></footer>
 </BaseLayout>
+
+<style lang="scss">
+    main {
+        @apply max-w-screen-lg mx-auto px-4;
+    }
+</style>

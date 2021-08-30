@@ -1,0 +1,13 @@
+---
+import MainLayout from './main.astro'
+import CreateForm from '../components/createForm/index.tsx'
+import Header from '../components/article/header.astro'
+
+const { content } = Astro.props
+---
+<MainLayout title={content.title}>
+    <article>
+        <Header title={content.title} />
+        <CreateForm client:load />
+    </article>
+</MainLayout>
