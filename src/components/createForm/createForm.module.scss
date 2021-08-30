@@ -1,5 +1,11 @@
 .form {
-    @apply grid grid-cols-1 gap-6;
+    &, fieldset {
+        @apply grid grid-cols-1 gap-6;
+    }
+}
+
+.legend {
+    @apply text-xl font-bold;
 }
 
 .label {

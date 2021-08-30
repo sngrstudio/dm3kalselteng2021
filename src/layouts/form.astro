@@ -8,6 +8,6 @@ const { content } = Astro.props
 <MainLayout title={content.title}>
     <article>
         <Header title={content.title} />
-        <CreateForm client:load />
+        <CreateForm form={content.form} client:load />
     </article>
 </MainLayout>
