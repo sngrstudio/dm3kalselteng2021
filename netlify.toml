@@ -3,8 +3,7 @@
     publish = "dist"
     
 [dev]
+    framework = "#custom"
     command = "yarn start"
     autoLaunch = false
-
-[context.production.environment]
-    ELEVENTY_ENV = "production"
+    targetPort = 3000

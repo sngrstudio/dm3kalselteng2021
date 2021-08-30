@@ -3,7 +3,6 @@ node_modules
 
 # Output
 dist
-src/components/styles
 
 # environment variables
 .env

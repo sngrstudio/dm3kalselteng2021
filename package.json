@@ -4,23 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy",
-    "clean": "npx del-cli dist src/components/styles",
-    "prestart": "yarn clean"
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
-  "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "autoprefixer": "^10.3.1",
-    "del-cli": "^4.0.1",
-    "gulp": "^4.0.2",
-    "gulp-postcss": "^9.0.0",
-    "gulp-sass": "^5.0.0",
-    "html-minifier": "^4.0.0",
-    "normalize.css": "^8.0.1",
-    "postcss": "^8.3.6",
-    "postcss-import-url": "^7.0.0",
-    "readable-stream": "^3.6.0",
-    "sass": "^1.38.0"
+  "dependencies": {
+    "@astrojs/renderer-react": "^0.2.0",
+    "@tailwindcss/forms": "^0.3.3",
+    "astro": "^0.20.3",
+    "react-hook-form": "^7.14.0",
+    "tailwindcss": "^2.2.8"
   }
 }
