@@ -57,4 +57,15 @@ form:
         type: file
       - name: Surat Rekomendasi Tokoh (pdf/doc)
         type: file
+  - set: Latar Belakang
+    items: 
+      - name: Ceritakan sedikit tentang diri antum.
+        type: textarea
+      - name: Mengapa antum harus mengikuti DM3 KAMMI Kalsel-Kalteng 2021?
+        type: textarea
+      - name: Apakah antum mengetahui peran dan fungsi AB3?
+        type: textarea
+      - name: Apa yang akan antum lakukan pasca lulus DM3 KAMMI Kalsel-Kalteng 2021?
+        type: textarea
+
 ---

@@ -1,24 +1,35 @@
-import React from 'react'
+import * as React from 'react'
 import { useForm } from 'react-hook-form'
 import styles from './createForm.module.scss'
 
+const storageName = 'FormData'
+
+function saveDataLocally(data) {
+    localStorage.setItem(storageName, JSON.stringify(data))
+    console.log(localStorage.getItem(storageName))
+}
+
 export default function CreateForm({ form }) {
-    const { register, handleSubmit } = useForm()
-    const onSubmit = data => console.log(data)
+    const { register, handleSubmit, formState: { errors } } = useForm()
+    const onSubmit = data => saveDataLocally(data)
 
     function renderInputBox(name, type, validation, options?) {
         const id = name.replaceAll(' ', '_')
         switch(type) {
             case 'select':
                 return (
-                    <select name={name} id={id} className={styles.input} {...register(name, validation)}>
+                    <select name={name} id={id} className={styles.input} {...register(id, validation)}>
                         {options.map(option => <option value={option} key={option.replaceAll(' ', '_')}>{option}</option>)}
                     </select>
                 )
             case 'textarea':
-                return <textarea name={name} id={id} rows={3} className={styles.input} {...register(name, validation)}></textarea>
+                return (
+                    <textarea name={name} id={id} rows={7} className={styles.input} {...register(id, validation)}></textarea>
+                )
             default:
-                return <input type={type || 'text'} id={id} className={styles.input} {...register(name, validation)} />
+                return (
+                    <input type={type || 'text'} id={id} className={styles.input} {...register(id, validation)} />
+                )
         }
     }
 
@@ -37,15 +48,19 @@ export default function CreateForm({ form }) {
                         } else {
                             return (
                             <label className={styles.label} key={item.name.replaceAll(' ', '_')}>
-                                <span>{ item.name }</span>
+                                <span className={styles.labelName}>{ item.name }</span>
                                 {renderInputBox(item.name, item.type, validation, item.options)}
+                                {validation.required ?
+                                    errors[item.name.replaceAll(' ', '_')] && <span className={styles.error}>Kolom ini wajib diisi.</span>
+                                    : <span></span>      
+                                }
                             </label>
                             )
                         }
                     })}
                 </fieldset>
             ))}
-            <input type="submit" />
+            <input className={styles.submit} type="submit" />
         </form>
     )
 }
