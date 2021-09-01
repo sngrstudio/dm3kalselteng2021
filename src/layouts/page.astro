@@ -1,10 +1,20 @@
 ---
 import MainLayout from './main.astro'
+import Header from '../components/article/header.astro'
 
 const { content } = Astro.props
 ---
 <MainLayout title={content.title}>
     <article>
-        <slot/>
+        <Header title={content.title}/>
+        <main id="content">
+            <slot/>
+        </main>
     </article>
 </MainLayout>
+
+<style lang="scss">
+    #content {
+        @apply prose lg:prose-xl max-w-none;
+    }
+</style>

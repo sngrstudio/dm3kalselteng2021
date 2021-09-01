@@ -1,0 +1,19 @@
+---
+import { site } from '$/config.ts'
+---
+<header>
+    <a class="header_logo" href="/">
+        <img src="/images/dm3.png" alt={site.name}>
+    </a>
+</header>
+
+<style lang="scss">
+    header {
+        @apply flex flex-row px-8 pt-8 pb-4;
+    }
+    .header_logo {
+        img {
+            @apply w-72 h-auto;
+        }
+    }
+</style>

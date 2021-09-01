@@ -1,10 +1,12 @@
 ---
-import { site } from '../config.ts' 
+import { site } from '$/config.ts' 
 import BaseLayout from './base.astro'
+import SiteHeader from '$components/site/header.astro'
+
 const { title } = Astro.props || ''
 ---
 <BaseLayout title={ title ? `${title} | ${site.name}` : site.name }>
-    <header></header>
+    <SiteHeader/>
     <main>
         <slot/>
     </main>
