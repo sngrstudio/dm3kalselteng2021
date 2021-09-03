@@ -1,6 +1,7 @@
 ---
 layout: $layouts/page.astro
 title: Proses Seleksi DM3
+image: '/images/ill02.png'
 ---
 # Gambaran Umum
 

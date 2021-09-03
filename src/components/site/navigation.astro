@@ -1,0 +1,22 @@
+---
+import { menus } from '$/config.ts'
+---
+<nav>
+    <ul>
+    {menus.map(menu => {
+        return <li><a href={menu.url}>{menu.name}</a></li>
+    })}
+    </ul>
+</nav>
+
+<style lang="scss">
+    nav {
+        @apply ml-auto hidden md:block;
+    }   
+    ul {
+        @apply flex flex-row gap-4;
+        li {
+            @apply font-bold text-xl;
+        }
+    }
+</style>

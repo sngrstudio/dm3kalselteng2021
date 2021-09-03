@@ -1,0 +1,8 @@
+@mixin btn {
+    @apply p-4 rounded-lg;
+}
+
+.cta {
+    @include btn;
+    @apply bg-green-600 hover:bg-green-800 text-lg md:text-xl text-white transition;
+}

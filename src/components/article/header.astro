@@ -3,23 +3,35 @@ import { site } from '../../config.ts'
 
 export interface Props {
     title: string
+    image: string
 }
 
-const { title } = Astro.props
+const { title, image } = Astro.props
 ---
 <header>
-    <h1 class="title">{ title }</h1>
-    <p class="subtitle">{ site.name }</p>
+    <section class="title_box">
+        <h1 class="title">{ title }</h1>
+        <p class="subtitle">{ site.name }</p>
+    </section>
+    <section class="illustration">
+        <img src={image} alt="" loading="lazy" decoding="async">
+    </section>
 </header>
 
 <style lang="scss">
     header {
-        @apply py-24;
+        @apply grid grid-cols-1 md:grid-cols-3 items-center py-24;
         .title {
             @apply text-4xl font-extrabold mb-2;
         }
         .subtitle {
             @apply text-2xl;
+        }
+        .title_box {
+            @apply col-span-1 md:col-span-2 order-2 md:order-1;
+        }
+        .illustration {
+            @apply col-span-1 order-1 md:order-2;
         }
     }
 </style>

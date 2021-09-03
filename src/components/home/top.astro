@@ -1,0 +1,40 @@
+---
+
+---
+<section id="topmainsection">
+    <section class="tms_left">
+        <h1>Jadilah Kader Terbaik</h1>
+        <p>Tuntaskan kaderisasi, <br> dan jadilah bintang di masyarakat.</p>
+        <div class="tms_cta">
+            <a class="cta" href="/sop">Proses Seleksi</a>
+            <a class="cta" href="#">Daftar</a>
+        </div>
+    </section>
+    <section>
+        <img src="/images/ill01.png" alt="" loading="lazy" decoding="async">
+    </section>
+</section>
+
+<style lang="scss">
+@use '../../styles/utils.scss';
+
+#topmainsection {
+    @apply grid grid-cols-1 md:grid-cols-2;
+    section {
+        @apply p-8;
+    }
+    .tms_left {
+        @apply flex flex-col justify-center;
+        h1 {
+            @apply font-bold text-2xl md:text-4xl lg:text-5xl;
+        }
+        p {
+            @apply mt-4 text-xl md:text-2xl lg:text-3xl;
+        }
+    } 
+
+    .tms_cta {
+        @apply flex flex-row gap-4 mt-8;
+    }
+}
+</style>

@@ -1,4 +1,3 @@
 ---
-layout: $layouts/page.astro
+layout: $layouts/home.astro
 ---
-# Hello!
