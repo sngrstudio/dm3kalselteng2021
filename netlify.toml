@@ -7,3 +7,7 @@
     command = "yarn start"
     autoLaunch = false
     targetPort = 3000
+
+[functions]
+    directory = "api"
+    external_node_modules = ["express"]
