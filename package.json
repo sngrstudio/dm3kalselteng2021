@@ -13,7 +13,7 @@
     "@netlify/functions": "^0.7.2",
     "@snowpack/plugin-postcss": "^1.4.3",
     "@tailwindcss/typography": "^0.4.1",
-    "astro": "^0.20.3",
+    "astro": "^0.20.4",
     "postcss-import-url": "^7.0.0",
     "tailwindcss": "^2.2.8"
   }
