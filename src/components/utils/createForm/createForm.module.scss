@@ -1,0 +1,33 @@
+.form {
+    @apply gap-8;
+    &, fieldset {
+        @apply grid grid-cols-1;
+    }
+    fieldset {
+        @apply gap-6;
+    }
+}
+
+.legend {
+    @apply text-2xl font-bold mb-2;
+}
+
+.label {
+    @apply block;
+}
+
+.labelName {
+    @apply text-lg mb-1;
+}
+
+.input {
+    @apply block w-full rounded-md shadow-sm focus:ring focus:ring-green-400 transition-all;
+}
+
+.error {
+    @apply text-red-500 text-sm;
+}
+
+.submit {
+    @apply p-4 w-48 hover:bg-green-400 transition-all;
+}
