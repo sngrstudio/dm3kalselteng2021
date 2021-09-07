@@ -5,23 +5,13 @@ import styles from './createForm.module.scss'
 export default function CreateForm({ form, title }) {
     const { register, handleSubmit, formState: { errors } } = useForm()
     const onSubmit = (data, event) => {
-        function encode(data) {
-            return Object.keys(data)
-                .map(
-                    key=> `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
-                ).join('&')
-        }
-
         event.preventDefault()
         fetch('/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'multipart/form-data'
             },
-            body: new URLSearchParams({
-                'form-name': event.target.getAttribute('name'),
-                ...data
-            }).toString()
+            body: new URLSearchParams(data).toString()
         }).then(()=>alert('Form telah dikirim')).catch(error => alert(error))
     }
 
