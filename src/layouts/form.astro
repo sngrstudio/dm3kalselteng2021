@@ -1,0 +1,19 @@
+---
+import MainLayout from './main.astro'
+import CreateForm from '../components/utils/createForm/index.tsx'
+import Header from '../components/article/header.astro'
+
+const { content } = Astro.props
+---
+<MainLayout title={content.title}>
+    <article>
+        <Header title={content.title} />
+        <CreateForm form={content.form} title={content.title} client:load />
+    </article>
+</MainLayout>
+
+<style lang="scss">
+    article {
+        @apply max-w-screen-lg mx-auto px-4 pb-24;
+    }
+</style>
