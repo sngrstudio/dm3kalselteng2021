@@ -16,12 +16,12 @@ export default function CreateForm({ form, title }) {
         fetch('/', {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/x-www-form-urlencoded'
+                'Content-Type': 'multipart/form-data'
             },
-            body: encode({
+            body: new URLSearchParams({
                 'form-name': event.target.getAttribute('name'),
                 ...data
-            })
+            }).toString()
         }).then(()=>alert('Form telah dikirim')).catch(error => alert(error))
     }
 
