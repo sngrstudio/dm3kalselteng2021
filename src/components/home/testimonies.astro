@@ -3,7 +3,7 @@ const testimonies = Astro.fetchContent('$/pages/katamereka/*.md').sort((a, b) =>
 ---
 
 <section id="testimonies">
-    <h1><a href="/katamereka">Apa Kata Mereka</a></h1>
+    <h1><a href="/katamereka">Apa Kata Mereka?</a></h1>
     <div class="container">
     {testimonies.map(test => (
         <a class="box" href={test.url}>

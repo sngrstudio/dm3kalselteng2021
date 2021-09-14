@@ -7,10 +7,10 @@
         <p>Tuntaskan kaderisasi, <br> dan jadilah bintang di masyarakat.</p>
         <div class="tms_cta">
             <a class="cta" href="/sop">Proses Seleksi</a>
-            <a class="cta" href="#">Daftar</a>
+            <a class="cta" href="/daftar" target="_blank">Daftar</a>
         </div>
     </section>
-    <section class="tms-image">
+    <section class="tms_image">
         <img src="/images/ill01.png?nf_resize=fit&w=600&h=417" alt="" loading="lazy" decoding="async">
     </section>
 </section>
@@ -24,26 +24,26 @@
         @apply p-4 lg:p-8;
     }
     min-height: 65vh;
+}
 
-    .tms_left {
-        @apply flex flex-col justify-center order-2 lg:order-1;
-        h1 {
-            @apply font-extrabold text-2xl md:text-4xl lg:text-5xl;
-        }
-        p {
-            @apply mt-4 text-xl md:text-2xl lg:text-3xl;
-        }
-    } 
-
-    .tms_image {
-        @apply grid place-content-center order-1 lg:order-2;
-        img {
-            @apply border border-red-500;
-        }
+.tms_left {
+    @apply flex flex-col justify-center order-2;
+    h1 {
+        @apply font-extrabold text-2xl md:text-4xl lg:text-5xl;
     }
-
-    .tms_cta {
-        @apply flex flex-row gap-4 mt-8;
+    p {
+        @apply mt-4 text-xl md:text-2xl lg:text-3xl;
     }
+} 
+
+.tms_image {
+    @apply flex flex-col justify-center order-1;
+    img {
+        @apply object-contain;
+    }
+}
+
+.tms_cta {
+    @apply flex flex-row gap-4 mt-8;
 }
 </style>

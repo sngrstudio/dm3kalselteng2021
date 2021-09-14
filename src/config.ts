@@ -23,8 +23,9 @@ export const menus = [
         url: '/katamereka'
     },
     {
-        name: 'Daftar',
-        url: '/daftar'
+        name: 'Daftar DM3',
+        url: '/daftar',
+        newWindow: true
     }
 ]
 

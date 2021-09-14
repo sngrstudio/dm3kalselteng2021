@@ -13,3 +13,15 @@
     to = "https://dm3kalselteng.com/:splat"
     status = 301
     force = true
+
+[[redirects]]
+    from = "/daftar"
+    to = "https://forms.gle/VG2JYYgqgWFAe2kKA"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "/unduh"
+    to = "https://bit.ly/DM3KalseltengFiles"
+    status = 301
+    force = true
