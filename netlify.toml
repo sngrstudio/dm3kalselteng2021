@@ -7,3 +7,9 @@
     command = "yarn start"
     autoLaunch = false
     targetPort = 3000
+
+[[redirects]]
+    from = "https://dm3kalselteng2021.netlify.app/*"
+    to = "https://dm3kalselteng.com/:splat"
+    status = 301
+    force = true
