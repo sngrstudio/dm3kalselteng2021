@@ -13,10 +13,12 @@
 @use '../../styles/utils.scss';
 
 #bottomsection {
+    min-height: 60vh;
+    @apply flex flex-col items-center justify-center py-16;
     section {
-        @apply flex flex-col items-center py-16;
+        @apply flex flex-col items-center gap-4;
         h1 {
-            @apply font-bold text-2xl md:text-4xl mb-8;
+            @apply font-extrabold text-2xl md:text-4xl;
         }
     }
 }

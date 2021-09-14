@@ -6,7 +6,7 @@ const { content } = Astro.props
 ---
 <MainLayout title={content.title}>
     <article>
-        <Header title={content.title} image={content.image}/>
+        <Header title={content.title} image={content.image} subtitle={content.subtitle} profile={content.profile}/>
         <main id="content">
             <slot/>
         </main>

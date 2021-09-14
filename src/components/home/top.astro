@@ -10,7 +10,7 @@
             <a class="cta" href="#">Daftar</a>
         </div>
     </section>
-    <section>
+    <section class="tms-image">
         <img src="/images/ill01.png" alt="" loading="lazy" decoding="async">
     </section>
 </section>
@@ -24,7 +24,7 @@
         @apply p-8;
     }
     .tms_left {
-        @apply flex flex-col justify-center;
+        @apply flex flex-col justify-center order-2 lg:order-1;
         h1 {
             @apply font-bold text-2xl md:text-4xl lg:text-5xl;
         }
@@ -32,6 +32,10 @@
             @apply mt-4 text-xl md:text-2xl lg:text-3xl;
         }
     } 
+
+    .tms_image {
+        @apply order-1 lg:order-2;
+    }
 
     .tms_cta {
         @apply flex flex-row gap-4 mt-8;

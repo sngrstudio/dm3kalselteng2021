@@ -1,0 +1,51 @@
+---
+import MainLayout from '$layouts/main.astro'
+import Header from '$components/article/header.astro'
+
+const testimonies = Astro.fetchContent('$/pages/katamereka/*.md').sort((a, b) => 0.5 - Math.random())
+const title = 'Kata Mereka'
+---
+
+<MainLayout>
+    <section class="container">
+        <Header title={title}/>
+        <section class="content">
+        {testimonies.map(test => (
+            <a class="card" href={test.url}>
+            <article>
+                <img src={`${test.image}?nf_resize=fit&w=150&h=150`} width="150" height="150" alt="" loading="lazy" decoding="async">
+                <h1>{test.title}</h1>
+                <p class="subtitle">{test.subtitle}</p>
+                <p class="html">{test.astro.source}</p>                
+            </article>
+            </a>
+        ))}
+        </section>
+    </section>
+</MainLayout>
+
+<style lang="scss">
+    .container {
+        @apply max-w-screen-lg mx-auto px-4 pb-24;
+    }
+
+    .content {
+        @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+    }
+
+    .card {
+        @apply aspect-w-3 aspect-h-5;
+        > article {
+            @apply rounded-2xl p-8 border-4 border-white hover:border-green-100 shadow-lg hover:shadow-2xl transition-all;
+            @apply flex flex-col items-center gap-2;
+            > img { @apply rounded-full ; }
+            h1 {
+                @apply font-extrabold text-2xl text-center;
+            }
+            .subtitle { @apply text-center font-bold; }
+            .html { @apply italic line-clamp-6; }
+        }
+    }
+
+
+</style>

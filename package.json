@@ -14,6 +14,8 @@
     "@astrojs/renderer-react": "^0.2.0",
     "@netlify/functions": "^0.7.2",
     "@snowpack/plugin-postcss": "^1.4.3",
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "@tailwindcss/line-clamp": "^0.2.1",
     "@tailwindcss/typography": "^0.4.1",
     "astro": "^0.20.5",
     "postcss-import-url": "^7.0.0",

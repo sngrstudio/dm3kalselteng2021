@@ -6,15 +6,15 @@ export interface Props {
     image: string
 }
 
-const { title, image = '' } = Astro.props
+const { title, image = '', subtitle = '', profile= false } = Astro.props
 ---
 <header>
     <section class="title_box">
         <h1 class="title">{ title }</h1>
-        <p class="subtitle">{ site.name }</p>
+        <p class="subtitle">{ subtitle ? subtitle : site.name }</p>
     </section>
     {image ? (
-        <section class="illustration">
+        <section class={['illustration', profile?'profile':null].join(' ')}>
             <img src={`${image}?nf_resize=fit&w=331&h=279`} alt="" loading="lazy" decoding="async">
         </section>
         ) : null
@@ -23,7 +23,7 @@ const { title, image = '' } = Astro.props
 
 <style lang="scss">
     header {
-        @apply grid grid-cols-1 md:grid-cols-3 items-center py-16 mb-16 border-b-2;
+        @apply grid grid-cols-1 md:grid-cols-3 gap-8 items-center py-16 mb-16 border-b-2;
         .title {
             @apply text-4xl font-extrabold mb-2;
         }
@@ -31,10 +31,17 @@ const { title, image = '' } = Astro.props
             @apply text-2xl;
         }
         .title_box {
-            @apply col-span-1 md:col-span-2 order-2 md:order-1;
+            @apply text-center lg:text-left col-span-1 md:col-span-2 order-2 md:order-1;
         }
         .illustration {
-            @apply col-span-1 order-1 md:order-2;
+            @apply col-span-1 order-1 md:order-2 flex flex-col items-center lg:items-end;
+        }
+        .profile {
+            img {
+                @apply rounded-full object-contain object-center;
+                width: 200px;
+                height: 200px;
+            }
         }
     }
 </style>
