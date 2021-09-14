@@ -4,11 +4,12 @@ import Header from '$components/article/header.astro'
 
 const testimonies = Astro.fetchContent('$/pages/katamereka/*.md').sort((a, b) => 0.5 - Math.random())
 const title = 'Kata Mereka'
+const image = '/images/ill03.png'
 ---
 
 <MainLayout>
     <section class="container">
-        <Header title={title}/>
+        <Header title={title} image={image} />
         <section class="content">
         {testimonies.map(test => (
             <a class="card" href={test.url}>
