@@ -72,6 +72,6 @@ export const orgs = [
         tel: '62 822-5596-4107',
         mail: 'kammikalsel@gmail.com',
         address: 'Banjarmasin',
-        logo: '/images/kammi.png'
+        logo: '/images/kalsel.png'
     },
 ]
