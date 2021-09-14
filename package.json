@@ -6,15 +6,20 @@
   "scripts": {
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "clean": "yarn trash \"dist\" \".netlify/*\" \"!.netlify/state.json\"",
+    "prestart": "yarn clean"
   },
   "dependencies": {
     "@astrojs/renderer-react": "^0.2.0",
     "@netlify/functions": "^0.7.2",
     "@snowpack/plugin-postcss": "^1.4.3",
     "@tailwindcss/typography": "^0.4.1",
-    "astro": "^0.20.4",
+    "astro": "^0.20.5",
     "postcss-import-url": "^7.0.0",
-    "tailwindcss": "^2.2.8"
+    "tailwindcss": "^2.2.15"
+  },
+  "devDependencies": {
+    "trash-cli": "^4.0.0"
   }
 }

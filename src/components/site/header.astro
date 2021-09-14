@@ -4,7 +4,7 @@ import Navigation from './navigation.astro'
 ---
 <header>
     <a class="header_logo" href="/">
-        <img src="/images/dm3.png?nf_resize=fit&w=192" alt={site.name}>
+        <img src={`${site.logo}?nf_resize=fit&w=192&h=78`} width="192" height="78" alt={site.name} loading="eager" decoding="async">
     </a>
     <Navigation/>
 </header>

@@ -3,6 +3,8 @@ export interface Props {
     title: string
 }
 
+import Icons from '$components/site/icons.astro'
+
 const { title } = Astro.props 
 ---
 <html lang="id">
@@ -11,6 +13,7 @@ const { title } = Astro.props
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href={Astro.resolve('../styles/global.css')}>
+    <Icons/>
     <title>{ title }</title>
 </head>
 <body>

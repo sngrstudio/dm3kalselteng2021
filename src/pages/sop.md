@@ -134,6 +134,9 @@ Esai ditulis sebagaimana berikut:
    * Implementasi Langkah per Langkah Solusi
    * Kesimpulan dan Penutup
 
+### Mekanisme Wawancara
+Wawancara dilaksanakan dengan 
+
 ## Pengumuman Calon Peserta
 1. Pengumuman Calon Peserta DM3 KAMMI Kalsel-Kalteng 2021. akan dilaksanakan pada tanggal 12 November 2021.
 2. Calon peserta yang telah menyelesaikan semua tahap pendaftaran dan seleksi, segera ditetapkan sebagai peserta DM3 KAMMI Kalsel-Kalteng 2021.

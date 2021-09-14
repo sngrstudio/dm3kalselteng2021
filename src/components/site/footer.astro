@@ -1,0 +1,80 @@
+---
+import { links, orgs } from '$/config.ts'
+---
+<footer>
+    <section>
+        <section class="footer_block">
+            <h1>Link Eksternal</h1>
+            <ul class="link">
+            {links.map(link => (
+                <li><a href={link.url}>{link.name}</a></li>
+            ))}
+            </ul>
+        </section>
+    </section>
+    <section>
+        <section class="footer_block">
+        <h1>Penyelenggara DM3</h1>
+        {orgs.slice(1,3).map(org => (
+        <div>
+            <img src={`${org.logo}?nf_resize=fit&w=100&h=120`} width="100" height="120" alt="" loading="lazy" decoding="async">
+            <div>
+                <h2>{org.name.replaceAll('\n', '<br>')}</h2>
+                <p><a href={`tel:${org.tel}`}>{org.tel}</a></p>
+                <p><a href={`mailto:${org.mail}`}>{org.mail}</a></p>
+                <p>{org.address}</p>
+                <p><a href={org.url}>{org.url}</a></p>
+            </div>
+        </div>
+        ))}
+        </section>
+    </section>
+    <section>
+        <section class="footer_block">
+            <h1>KAMMI</h1>
+            {orgs.slice(0,1).map(org => (
+            <div>
+                <img src={`${org.logo}?nf_resize=fit&w=100&h=120`} width="100" height="120" alt="" loading="lazy" decoding="async">
+                <div>
+                    <h2>{org.name.replaceAll('\n', '<br>')}</h2>
+                    <p><a href={`tel:${org.tel}`}>{org.tel}</a></p>
+                    <p><a href={`mailto:${org.mail}`}>{org.mail}</a></p>
+                    <p>{org.address}</p>
+                    <p><a href={org.url}>{org.url}</a></p>
+                </div>
+            </div>
+            ))}
+        </section>
+    </section>
+</footer>
+
+<style lang="scss">
+    footer {
+        @apply grid grid-cols-1 lg:grid-cols-3 gap-8 bg-green-50 px-8 py-16;
+    }
+
+    .footer_block {
+        @apply flex flex-col gap-4;
+        h1 {
+            @apply font-bold text-xl lg:text-2xl border-b border-green-500 text-green-500 mb-2;
+        }
+        > div {
+            @apply flex flex-row gap-4;
+            h2 {
+                @apply font-bold text-lg mb-2;
+            }
+            p {
+                @apply break-all mb-1;
+            }
+            img {
+                @apply self-start object-contain;
+            }
+        }
+    }
+
+    .link {
+        li {
+            @apply text-lg lg:text-xl hover:text-green-500 transition;
+        }
+    }
+</style>
