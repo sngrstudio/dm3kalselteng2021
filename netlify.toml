@@ -25,3 +25,27 @@
     to = "https://bit.ly/DM3KalseltengFiles"
     status = 301
     force = true
+
+[[redirects]]
+    from = "/timseleksi"
+    to = "/soon"
+    status = 302
+    force = true
+
+[[redirects]]
+    from = "/tugas1"
+    to = "/soon"
+    status = 302
+    force = true
+
+[[redirects]]
+    from = "/tugas2"
+    to = "/soon"
+    status = 302
+    force = true
+
+[[redirects]]
+    from = "/wawancara"
+    to = "/soon"
+    status = 302
+    force = true
