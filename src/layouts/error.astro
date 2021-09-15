@@ -1,0 +1,26 @@
+---
+import MainLayout from './main.astro'
+
+const { content } = Astro.props
+---
+<MainLayout title={content.title}>
+    <section class="error">
+        <img src="/images/dm3c.png?nf_resize=fit&w=300" width="250" height="auto" alt="" loading="lazy" decoding="async">
+        <h1>{content.title}</h1>
+        <div class="explanation">
+            <slot/>
+        </div>
+    </section>
+</MainLayout>
+
+<style lang="scss">
+    .error {
+        @apply flex flex-col items-center justify-center gap-8 my-24;
+        h1 {
+            @apply font-extrabold text-4xl lg:text-6xl text-center;
+        }
+        .explanation {
+            @apply text-lg lg:text-xl;
+        }
+    }
+</style>
