@@ -4,20 +4,36 @@ import { menus } from '$/config.ts'
 <nav>
     <ul>
     {menus.map(menu => {
-        return <li><a href={menu.url} target={menu.newWindow?'_blank':'_self'}>{menu.name}</a></li>
+        return (
+            <li>
+                <a href={menu.url} target={menu.newWindow?'_blank':'_self'}>
+                    <span class="material-icons">{menu.icon}</span>
+                    <span>{menu.name}</span>
+                </a>
+            </li>
+        )
     })}
     </ul>
 </nav>
 
 <style lang="scss">
     nav {
-        @apply ml-auto hidden md:block;
+        @apply fixed bottom-0 inset-x-0 z-10 bg-white p-2 md:p-0;
+        @apply md:ml-auto md:static;
+        @apply border-t-2 border-green-500 md:border-t-0;
     }   
     ul {
-        @apply flex flex-row gap-4;
+        @apply grid grid-cols-4 gap-2 md:flex md:flex-row md:gap-8;
         li {
-            @apply font-bold text-xl;
-            @apply text-black hover:text-green-500 transition;
+            a {
+                @apply flex flex-col justify-end;
+                @apply text-center md:text-right;
+                @apply font-bold text-sm md:text-xl;
+                @apply text-black hover:text-green-500 transition;
+            }
         }
+    }
+    .material-icons {
+        @apply md:hidden mb-2 text-green-500 hover:text-green-800 transition-all;
     }
 </style>

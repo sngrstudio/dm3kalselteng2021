@@ -12,18 +12,22 @@ export const site = {
 export const menus = [
     {
         name: 'Beranda',
+        icon: 'home',
         url: '/'
     },
     {
-        name: 'Proses Seleksi',
+        name: 'SOP',
+        icon: 'description',
         url: '/sop'
     },
     {
         name: 'Kata Mereka',
+        icon: 'question_answer',
         url: '/katamereka'
     },
     {
         name: 'Daftar DM3',
+        icon: 'edit',
         url: '/daftar',
         newWindow: true
     }
