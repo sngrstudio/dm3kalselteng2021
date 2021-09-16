@@ -8,6 +8,11 @@
     autoLaunch = false
     targetPort = 3000
 
+[[headers]]
+    for = "/*"
+    [headers.values]
+        X-Robots-Tag = "noindex, nofollow"
+
 [[redirects]]
     from = "https://dm3kalselteng2021.netlify.app/*"
     to = "https://dm3kalselteng.com/:splat"
