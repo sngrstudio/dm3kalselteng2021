@@ -6,7 +6,7 @@ on:
     - cron: '10 5/6 * * *'
 jobs:
   build:
-    name: Netlify Annual Build
+    name: build on hook
     runs-on: ubuntu-latest
     steps:
       - name: Curl request
