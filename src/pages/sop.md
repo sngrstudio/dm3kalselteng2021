@@ -47,20 +47,20 @@ Pendaftaran dilakukan dengan cara mengisi formulir pendaftaran dan melengkapi be
 Sebelum melakukan pendaftaran, mohon menyiapkan berkas-berkas berikut ini:
 
 1. Biodata Peserta
-1. Surat Rekomendasi dari Ketua Umum KAMMI Daerah atau KAMMI Wilayah.
-1. Surat Keterangan Telah Tersertifikasi AB2 dari Bidang Pembinaan Kader KAMMI Wilayah.
-1. Surat Keterangan Telah Terbina dari Murabbi.
-1. Surat Pernyataan, yang menyatakan bersedia untuk menjadi KAMMI Daerah, KAMMI Wilayah, dan pimpinan/pengurus PP KAMMI.
-1. Sertifikat DPMK, atau Surat Keterangan Pemandu oleh Komander/BPK Daerah/Wilayah jika tidak ada.
-1. Surat Keterangan Aktif, yang menyatakan bahwa calon peserta aktif dalam kegiatan KAMMI (sebagai pengurus/LSO/Badan Khusus) atau aktif diberdayakan dalam lembaga eksternal (surat mencantumkan nama lembaga terkait).
-1. Surat rekomendasi tokoh, dengan pilihan sebagaimana berikut:
+2. Surat Rekomendasi dari Ketua Umum KAMMI Daerah atau KAMMI Wilayah.
+3. Surat Keterangan Telah Tersertifikasi AB2 dari Bidang Pembinaan Kader KAMMI Wilayah.
+4. Surat Keterangan Telah Terbina dari Murabbi.
+5. Surat Pernyataan, yang menyatakan bersedia untuk menjadi KAMMI Daerah, KAMMI Wilayah, dan pimpinan/pengurus PP KAMMI.
+6. Sertifikat DPMK, atau Surat Keterangan Pemandu oleh Komander/BPK Daerah/Wilayah jika tidak ada.
+7. Surat Keterangan Aktif, yang menyatakan bahwa calon peserta aktif dalam kegiatan KAMMI (sebagai pengurus/LSO/Badan Khusus) atau aktif diberdayakan dalam lembaga eksternal (surat mencantumkan nama lembaga terkait).
+8. Surat rekomendasi tokoh, dengan pilihan sebagaimana berikut:
    * Akademisi (dengan jabatan terendah sebagai Kepala Program Studi/sederajat),
    * Birokrat (dengan jabatan terendah sebagai Kepala Dinas/Badan di tingkat Provinsi),
    * Politisi (dengan jabatan terendah sebagai Ketua Partai di tingkat Kabupaten/Kota, atau pejabat publik di tingkat Kabupaten/Kota (Bupati/Walikota), atau anggota DPRD Provinsi),
    * Agamawan (tokoh agama yang memiliki reputasi ketokohan di level provinsi, atau ketua ormas keagamaan di tingkat provinsi),
    * Budayawan/Tokoh Adat (dengan reputasi ketokohan di level provinsi), atau
    * Pengusaha/Entrepreneur (dengan badan usaha yang dimiliki berbadan hukum).
-1. Foto bukti pernah melakukan kegiatan bersama masyarakat beserta deskripsinya (per [persyaratan](#persyaratan-umum)).
+9. Foto bukti pernah melakukan kegiatan bersama masyarakat beserta deskripsinya (per [persyaratan](#persyaratan-umum)).
 
 Semua contoh berkas-berkas di atas dapat diunduh di [sini][download].
 
@@ -173,8 +173,14 @@ Wawancara dilaksanakan oleh peserta yang didampingi oleh dua orang tim seleksi. 
 Calon Peserta yang telah ditetapkan sebagai peserta diwajibkan untuk melakukan pendaftaran ulang di lokasi dengan menyerahkan berkas-berkas hardcopy sebagaimana berikut:
 1. Hardcopy dari berkas yang telah diunggah (sebagaimana telah tercantum di Tata Cara Pendaftaran);
 2. Esai dan resume buku (lihat kembali tahap seleksi 1 dan 2);
-3. Membayar iuran pendaftaran sebesar Rp400.000,-;
-   * Pembayaran dapat dilakukan lebih awal dengan cara mentransfer melalui rekening XXXX (Bank XXXX) a.n XXXX. Dimohon untuk melakukan konfirmasi kepada PJ Kepesertaan setelah melakukan transfer, dan melampirkan bukti transfer ketika pendaftaran ulang di meja registrasi.
+3. Membayar iuran pendaftaran sebesar Rp400.000,-; Pembayaran dapat dilakukan lebih awal dengan cara mentransfer melalui rekening:
+
+| No. Rekening          | Bank   | Atas Nama     |
+| ---                   | ---    | ---           |
+| 8592 0936 90          | BSI    | Nuli Norlina  |
+| 7599 01 009141 53 4   | BRI    | Norjanah      |
+
+Dimohon untuk melakukan konfirmasi kepada [PJ Kepesertaan][mcr] setelah melakukan transfer, dan melampirkan bukti transfer ketika pendaftaran ulang di meja registrasi.
 
 ## Ketentuan Selama Pelaksanaan
 
