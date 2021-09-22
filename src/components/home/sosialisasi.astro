@@ -4,17 +4,10 @@
 
 <section id="sosialisasi">
     <section class="soc_title">
-        <h1>Sosialisasi Narasi & Informasi Umum DM3</h1>
+        <h1><a href="/sosialisasi">Sosialisasi Narasi & Informasi Umum DM3</a></h1>
     </section>
-    <section class="soc_img">
-        <img src="/images/sosialisasi.jpeg?nf_resize=fit&w=500&h=500" width="500" height="500" alt="sosialisasi" loading="lazy" decoding="async">
-    </section>
-    <section class="soc_cta">
-        <h2>Bergabung Sekarang</h2>
-        <div class="soc_btn">
-            <a class="cta" href="/sosialisasi">Info</a>
-            <a class="cta" href="/sosialisasi-zoom">Zoom</a>
-        </div>
+    <section class="soc_yt">
+        <iframe width="1020" height="630" src="https://www.youtube-nocookie.com/embed/VeR6ssRoQNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
 </section>
 
@@ -23,28 +16,15 @@
 
 #sosialisasi {
     min-height: 60vh;
-    @apply grid grid-cols-1 md:grid-cols-2 p-8 md:p-16 gap-4;
+    @apply flex flex-col justify-center px-8 py-16;
     @apply bg-green-50;
-    .soc_img {
-        @apply flex flex-row justify-center;
-        img {
-            @apply shadow-lg hover:shadow-xl transition-all;
-        }
-    }
-    .soc_cta {
-        @apply flex flex-col items-center justify-center md:items-start gap-4 lg:gap-8;
-        h2 {
-            @apply font-bold text-3xl md:text-5xl text-center md:text-left;
-        }
-    }
     .soc_title {
-        @apply col-span-1 md:col-span-2;
         h1 {
             @apply font-extrabold text-4xl lg:text-6xl text-center my-8; 
         }
     }
-    .soc_btn {
-        @include utils.btn_box;
+    .soc_yt {
+        @apply aspect-w-16 aspect-h-9;
     }
 }
 </style>

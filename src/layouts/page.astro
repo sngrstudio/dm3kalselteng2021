@@ -20,4 +20,7 @@ const { content } = Astro.props
     #content {
         @apply prose max-w-none;
     }
+    :global(iframe) {
+        @apply max-w-full;
+    }
 </style>
