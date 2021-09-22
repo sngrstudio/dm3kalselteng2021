@@ -2,7 +2,15 @@
     @apply p-4 rounded-2xl;
 }
 
+@mixin btn_box {
+    @apply flex flex-row gap-4;
+}
+
 .cta {
     @include btn;
     @apply font-bold bg-green-600 hover:bg-green-800 text-lg md:text-xl text-white transition;
+}
+
+.cta_box {
+    @include btn_box;
 }

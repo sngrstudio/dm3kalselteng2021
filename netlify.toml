@@ -56,7 +56,7 @@
     force = true
 
 [[redirects]]
-    from = "/sosialisasi"
+    from = "/sosialisasi-zoom"
     to = "https://us02web.zoom.us/j/85478911418?pwd=SFM1bUNYZ1JFRDd1VkxlcDJZOGMyUT09s"
     status = 301
     force = true

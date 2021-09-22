@@ -11,7 +11,10 @@
     </section>
     <section class="soc_cta">
         <h2>Bergabung Sekarang</h2>
-        <a class="cta" href="/sosialisasi" target="_blank">Zoom</a>
+        <div class="soc_btn">
+            <a class="cta" href="/sosialisasi">Info</a>
+            <a class="cta" href="/sosialisasi-zoom">Zoom</a>
+        </div>
     </section>
 </section>
 
@@ -39,6 +42,9 @@
         h1 {
             @apply font-extrabold text-4xl lg:text-6xl text-center my-8; 
         }
+    }
+    .soc_btn {
+        @include utils.btn_box;
     }
 }
 </style>
