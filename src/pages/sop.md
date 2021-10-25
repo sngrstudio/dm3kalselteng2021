@@ -94,7 +94,7 @@ Seleksi tahap pertama adalah seleksi **bedah buku**.
 
    1. Tim Seleksi berjumlah minimal dua orang dan merupakan kader AB3 yang ditunjuk oleh BPK/Ketua Umum PW asal daerah peserta;
    2. Tim Seleksi bertindak sebagai panelis pada bedah buku calon peserta;
-   3. Tim Seleksi melakukan penilaian pada blangko yang tersedia ([unduh][timseleksi]) dan mengisikan penilaian dan mengunggah blangko pada halaman [ini][tugas1], sebelum tanggal 28 Oktober 2021 pukul 23.59.59;
+   3. Tim Seleksi melakukan penilaian pada blangko yang tersedia ([unduh][timseleksi1]) dan mengisikan penilaian dan mengunggah blangko pada halaman [ini][timseleksi1], sebelum tanggal 28 Oktober 2021 pukul 23.59.59;
    4. Tim Seleksi senantiasa berkoordinasi dengan Perangkat Pelaksana DM3 Kalsel-Kalteng baik dalam proses penilaian maupun hal-hal lain terkait proses seleksi peserta DM3 Kalsel-Kalteng 2021.
 
 </details>
@@ -155,7 +155,7 @@ Wawancara dilaksanakan oleh peserta yang didampingi oleh dua orang tim seleksi. 
    1. Tim Seleksi berjumlah dua orang dengan komposisi:
       * Kader AB3 yang ditunjuk oleh BPK/Ketua Umum PW asal daerah peserta;
       * dan AB3 Tim Perangkat DM3 KAMMI Kalselteng 2021.
-   3. Tim Seleksi melakukan penilaian pada blangko yang tersedia ([unduh][timseleksi]) dan mengisikan penilaian dan mengunggah blangko pada halaman [ini][wawancara], sebelum tanggal 16 November 2021 pukul 23.59.59;
+   3. Tim Seleksi melakukan penilaian pada blangko yang tersedia ([unduh][timseleksi2]) dan mengisikan penilaian dan mengunggah blangko pada halaman [ini][wawancara], sebelum tanggal 16 November 2021 pukul 23.59.59;
    4. Tim Seleksi senantiasa berkoordinasi dengan Perangkat Pelaksana DM3 Kalsel-Kalteng baik dalam proses penilaian maupun hal-hal lain terkait proses seleksi peserta DM3 Kalsel-Kalteng 2021.
 
 </details>
@@ -245,7 +245,8 @@ Silahkan mengunduh SOP dan contoh berkas di [sini][download].
 [daftar]: /daftar
 [konfirmasi]: https://wa.me/6282154565271?text=Assalamualaikum%2C%20saya%20hendak%20mengkonfirmasi%20pendaftaran%20saya%20di%20DM3%20Kalselteng%202021%20atas%20nama%20...%20dari%20PW%20KAMMI%20...
 [download]: /unduh
-[timseleksi]: /timseleksi
+[timseleksi1]: /timseleksi/tugas1
+[timseleksi2]: /timseleksi/tugas2
 [wawancara]: /wawancara
 [tugas1]: /tugas1
 [tugas2]: /tugas2

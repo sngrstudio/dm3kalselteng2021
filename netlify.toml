@@ -32,15 +32,21 @@
     force = true
 
 [[redirects]]
-    from = "/timseleksi"
+    from = "/timseleksi/tugas1"
+    to = "https://forms.gle/gGp6isAg1DCAphXG6"
+    status = 302
+    force = true
+
+[[redirects]]
+    from = "/timseleksi/tugas2"
     to = "/soon"
     status = 302
     force = true
 
 [[redirects]]
     from = "/tugas1"
-    to = "/soon"
-    status = 302
+    to = "https://forms.gle/9SUJjgzWU1J3T6XE6"
+    status = 301
     force = true
 
 [[redirects]]
