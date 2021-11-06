@@ -62,7 +62,7 @@
     force = true
 
 [[redirects]]
-    from = "/sosialisasi-zoom"
-    to = "https://us02web.zoom.us/j/85478911418?pwd=SFM1bUNYZ1JFRDd1VkxlcDJZOGMyUT09s"
+    from = "/secret-files"
+    to = "https://drive.google.com/drive/folders/1BWgAqaMUEme4u9m7WlAAyl5xA44fKxqI?usp=sharing"
     status = 301
     force = true
